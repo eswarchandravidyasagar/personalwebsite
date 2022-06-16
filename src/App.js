@@ -2,6 +2,7 @@
 import React from "react";
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
 import "./App.css"
+import Contact from "./Components/Contact";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
@@ -19,8 +20,9 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects/:id" element={<ProjectDisplay />} />
+          <Route path="/contact" element={<Contact />}/>
         </Routes>
-        <Footer />
+        <Footer />  
       </Router>
     </div>
   );

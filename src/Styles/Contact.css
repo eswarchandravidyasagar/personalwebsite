@@ -1,0 +1,25 @@
+.form{
+    align-items: center;
+    justify-content: ;
+    padding-top: 50px;
+    height: 700px;
+    background-color: rgb(79, 129, 194);
+}
+.item{
+    width: 300px;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(224, 227, 234);
+    padding-bottom: 30px;
+    border-radius: 10px;
+    
+}
+.button{
+    border: radius 300px;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
