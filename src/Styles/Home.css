@@ -1,39 +1,10 @@
-.home {
-   display: block;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
-  }
-  
-  .about {
-    
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0;
-  }
-  
-  .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: auto;
-    color: #e9d35b;
-    height: 50px;
-  }
-  
-  .about .prompt {
-    
-    font-size: 30px;
-  }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
-  }
-  
-  
-  
-  
+.about{
+    display: grid;
+    padding: auto;
+}
+
+.skills{
+    display: block;
+    padding: auto;
+}
+

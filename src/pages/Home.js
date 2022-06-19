@@ -4,16 +4,16 @@ import LinkeinIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email"
 
-import {Card, CardContent, Typography, Grid} from "@mui/material";
-
 
 
 function Home() {
   return (
+
     <div className='home'>
       
+      
     <div className='about'>
-      <h2>Hi,My name is Eswar</h2>
+      <h2 className='name'>Hi,My name is Eswar.</h2>
       <div className='prompt'>
         <p>I am a Passionate Web Devloper With Creative Problem Solving Skills</p>
         <a href='https://www.linkedin.com/in/eswarattuluri/' ><LinkeinIcon /></a>
@@ -21,15 +21,12 @@ function Home() {
         <a href={"/contact"} ><EmailIcon /></a>
       </div>
     </div>
-
     <div className='skills'>
       <h1>Skills</h1>
       <h2>Front end skills</h2>
       <p>HTML,CSS,Javascript,React,bootstrap,MaterialUI</p>
       <h2>Front end skills</h2>
       <p>Node.js,MongoDB,Express.js</p>
-
-
     </div>
     
     </div>

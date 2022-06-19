@@ -9,6 +9,7 @@ function ProjectDisplay() {
     <div className='project'>
         <h1>{project.name}</h1>
         <img src={project.image} />
+        <a href={project.Demo}>Demo</a>
     </div>
   )
 }

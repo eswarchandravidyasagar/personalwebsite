@@ -45,9 +45,10 @@
   }
   
   #open .links {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     margin-top: 100px;
+    display: block;
   }
   
   #open a {
@@ -84,6 +85,6 @@
     }
   
     #open .links {
-      flex-direction: column;
+      flex-direction: row;
     }
   }
