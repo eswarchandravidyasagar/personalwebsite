@@ -5,7 +5,7 @@ function Contact() {
   return (
         <div className='form'>
           <form className="wrapper">
-            <h1>Contact me</h1>
+            <h1 className="me">Contact me</h1>
             <input   placeholder="Your name" className="item" type="text" /><br /><br />
 
             <input placeholder="Email..." className="item" type="email" /><br /><br />

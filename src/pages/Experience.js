@@ -7,6 +7,8 @@ import UniversityIcon from "@mui/icons-material/School"
 import WorkIcon from "@mui/icons-material/Work"
 
 function Experience() {
+
+
   return (
     <div className='experience'>Experience
     <VerticalTimeline lineColor="#3e497a">
@@ -15,8 +17,8 @@ function Experience() {
       iconStyle={{background:"#3e497a",color:"#fff"}}
       icon={<SchoolIcon />}
       >
-      <h3 className='vertical-timeline-element-title'>Acharya Nagarjuna University ,India</h3>
-      <p>Bachelors In Pharmacy</p>
+      <h3 className='vertical-timeline-element-title'>Acharya Nagarjuna University </h3>
+      <p>Bachelors Degree</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement className='vertical-timeline-elememt--education'
@@ -24,18 +26,10 @@ function Experience() {
       iconStyle={{background:"#3e497a",color:"#fff"}}
       icon={<UniversityIcon />}
       >
-      <h3 className='vertical-timeline-element-title'>University Of Windsor ,Windsor,Canada</h3>
-      <p>Masters's in Medical Biotechnology'</p>
+      <h3 className='vertical-timeline-element-title'>University Of Windsor </h3>
+      <p>Masters's Degree'</p>
       </VerticalTimelineElement>
 
-      <VerticalTimelineElement className='vertical-timeline-elememt--education'
-      date='2020-2022'
-      iconStyle={{background:"#3e497a",color:"#fff"}}
-      icon={<WorkIcon />}
-      >
-      <h3 className='vertical-timeline-element-title'>Tilray Brands INC ,Leamington.ON</h3>
-      <p>Quality AssuranceAssociate</p>
-      </VerticalTimelineElement>
 
 
       <VerticalTimelineElement className='vertical-timeline-elememt--education'
@@ -43,7 +37,7 @@ function Experience() {
       iconStyle={{background:"#3e497a",color:"#fff"}}
       icon={<UniversityIcon />}
       >
-      <h3 className='vertical-timeline-element-title'>University Of Waterloo,Waterloo.ON</h3>
+      <h3 className='vertical-timeline-element-title'>University Of Waterloo</h3>
       <p>Advanced Web Devlopmemnt and Design</p>
       </VerticalTimelineElement>
 

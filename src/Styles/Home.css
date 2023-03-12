@@ -1,3 +1,10 @@
+
+
+body{
+    height: 100%;
+}
+
+
 .about{
     display: grid;
     padding: auto;
@@ -5,6 +12,15 @@
 
 .skills{
     display: block;
-    padding: auto;
+    
+    
+}
+
+
+.name{
+    font-size: 50px;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+
 }
 

@@ -3,7 +3,7 @@
     justify-content: ;
     padding-top: 50px;
     height: 700px;
-    background-color: rgb(79, 129, 194);
+    background-color:#21325e;
 }
 .item{
     width: 300px;
@@ -23,3 +23,6 @@
     color: white;
 }
 
+.me{
+    text-decoration: aliceblue;
+}

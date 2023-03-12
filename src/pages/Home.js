@@ -6,16 +6,15 @@ import EmailIcon from "@mui/icons-material/Email"
 
 
 
+
 function Home() {
   return (
 
     <div className='home'>
-      
-      
     <div className='about'>
       <h2 className='name'>Hi,My name is Eswar.</h2>
       <div className='prompt'>
-        <p>I am a Passionate Web Devloper With Creative Problem Solving Skills</p>
+        <p>I love Building for web</p>
         <a href='https://www.linkedin.com/in/eswarattuluri/' ><LinkeinIcon /></a>
         <a href='https://github.com/eswarchandravidyasagar'><GithubIcon /></a>
         <a href={"/contact"} ><EmailIcon /></a>
@@ -28,7 +27,6 @@ function Home() {
       <h2>Front end skills</h2>
       <p>Node.js,MongoDB,Express.js</p>
     </div>
-    
     </div>
   )
 }
