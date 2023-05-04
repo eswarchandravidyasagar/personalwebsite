@@ -1,22 +1,29 @@
 
 import "../Styles/Contact.css";
+import React,{useState} from 'react';
 
 function Contact() {
+
+  
+
+
   return (
-        <div className='form'>
-          <form className="wrapper">
-            <h1 className="me">Contact me</h1>
-            <input   placeholder="Your name" className="item" type="text" /><br /><br />
-
-            <input placeholder="Email..." className="item" type="email" /><br /><br />
-            <textarea className="item" name="" id="" cols="30" rows="10" placeholder="Type your message here">Type Your message here</textarea><br /><br />
-            <button  className="button" >Submit</button>
-
-
-          </form>
-
-        </div>
-    
+    <div class="form">
+    <form  class="wrapper">
+      <h1 class="me">Contact Me</h1>
+      <div class="input-container">
+        <input class="item"  type="text" placeholder="Your Name" />
+      </div>
+      <div class="input-container">
+        <input class="item" type="email"  placeholder="Your Email" />
+      </div>
+      <div class="input-container">
+        <textarea class="item"  placeholder="Type Your Message Here"></textarea>
+      </div>
+      <button type="submit" class="button">Submit</button>
+    </form>
+  </div>
+  
   )
 }
 

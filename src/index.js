@@ -7,6 +7,5 @@ root.render(
   
     <App />
   
-    
 );
 

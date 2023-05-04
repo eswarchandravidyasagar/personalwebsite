@@ -14,7 +14,7 @@ useEffect(()=>{setexpandNavbar(false)},[location])
 
 
   return (
-    <div className='navbar' id={expandNavbar ? "open" : "close"}>
+    <div className='navbar bg-base-100' id={expandNavbar ? "open" : "close"}>
     <div className='toggleButton'>
         <button onClick={
           ()=>{setexpandNavbar((prev)=> !prev);

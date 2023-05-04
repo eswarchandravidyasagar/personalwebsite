@@ -9,10 +9,8 @@ function Footer() {
   return (
     <div className='footer'>
     <div className='socialMedia'>
-    <a href='https://www.linkedin.com/in/eswarattuluri/' ><LinkedinIcon /></a>
-    <a href='https://github.com/eswarchandravidyasagar'><GithubIcon /></a>
     </div>
-    <p>&copy; 2022 eswarattuluri.com</p>
+    <p>&copy; 2023 eswarattuluri.com</p>
     </div>
   )
 }

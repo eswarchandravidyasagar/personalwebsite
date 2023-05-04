@@ -1,0 +1,43 @@
+.experience {
+    margin-top: 80px;
+    padding: 60px 0;
+    background-color: #f7f7f7;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .vertical-timeline-element-content {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+  }
+  
+  .vertical-timeline-element-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .vertical-timeline-element-icon {
+    background-color: #3e497a;
+    color: #fff;
+  }
+  
+  .vertical-timeline-element-title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .vertical-timeline-element-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
