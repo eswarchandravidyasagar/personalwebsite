@@ -11,7 +11,7 @@ const navigate = useNavigate();
     <div className='projectItem' onClick={()=>{ navigate(""+id);}}>
         <div style={{backgroundImage: `url(${image})`}}  className="bgImage"/>
         <h1>{name}</h1>
-        <p>Description:</p>
+        
     </div>
   )
 }
