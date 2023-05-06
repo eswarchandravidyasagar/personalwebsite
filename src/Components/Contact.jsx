@@ -1,30 +1,44 @@
 
 import "../Styles/Contact.css";
-import React,{useState} from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-function Contact() {
+export const Contact = () => {
+  const form = useRef();
 
-  
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+    emailjs.sendForm('service_wq5cz08', 'template_8md47lg', form.current, 'zlB26FFg6XmjtpfZr')
+
+    //create a success message
+    .then((result) => {
+      //need a div to display the message successfully sent
+      document.getElementById("success").innerHTML = "Message sent successfully";
+    }
+    //create an error message
+    , (error) => {
+        console.log(error.text);
+        alert("An error occurred, Please try again", error.text);
+    });
+     
+  };
 
   return (
-    <div class="form">
-    <form  class="wrapper">
-      <h1 class="me">Contact Me</h1>
-      <div class="input-container">
-        <input class="item"  type="text" placeholder="Your Name" />
-      </div>
-      <div class="input-container">
-        <input class="item" type="email"  placeholder="Your Email" />
-      </div>
-      <div class="input-container">
-        <textarea class="item"  placeholder="Type Your Message Here"></textarea>
-      </div>
-      <button type="submit" class="button">Submit</button>
+    <div>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
     </form>
-  </div>
-  
-  )
-}
+    <div id="success"></div>
+    </div>
+  );
+};
 
-export default Contact
+
+ export default Contact

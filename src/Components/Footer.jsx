@@ -7,7 +7,7 @@ import LinkedinIcon from "@mui/icons-material/LinkedIn"
 
 function Footer() {
   return (
-    <div className='footer'>
+    <div  className='footer'>
     <div className='socialMedia'>
     </div>
     <p>&copy; 2023 eswarattuluri.com</p>

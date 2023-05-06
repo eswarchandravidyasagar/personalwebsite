@@ -1,59 +1,120 @@
-.form {
+/* <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form> */
+
+
+/* Path: src/Styles/Contact.css */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+
+form label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+
+form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+
+form textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+}
+
+form input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 768px){
+    form{
+        width: 80%;
+    }
+}
+
+#success{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eceff5;
-    height: 100%;
-    padding: 50px;
-  }
-  
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    width: 100%;
-    background-color: #e0e3ea;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
     border-radius: 10px;
-    padding: 30px;
-  }
-  
-  .me {
-    font-size: 30px;
-    color: #1c1b1b;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #31db80;
     text-align: center;
-  }
-  
-  .item {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: none;
-  }
-  
-  textarea.item {
-    resize: none;
-    height: 150px;
-  }
-  
-  .button {
-    width: 130px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .button:hover {
-    background-color: #111;
-  }
-  
-  .input-container {
-    width: 100%;
-  }
-  
+
+    animation: fadeOut 2s ease-in-out forwards;
+}

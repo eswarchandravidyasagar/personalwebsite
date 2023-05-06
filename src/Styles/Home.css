@@ -1,6 +1,5 @@
 .home {
     background: linear-gradient(to right, #00b4db, #0083b0);
-
     display: flex;
     flex-direction: column;
     align-items: center;
