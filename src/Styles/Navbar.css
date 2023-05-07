@@ -1,25 +1,44 @@
 .navbar {
-  display: flex;
+  height: auto;
+  position: fixed;
+  width: 100%;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #333;
-  color: #fff;
+  color: #f7f2f2;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: linear-gradient(to bottom right, #1831ee, #78a3ed);
+  }
 
+
+  
+
+  .navbar img {
+    
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+   
+    
   }
   
   .toggleButton {
   display: none;
+  
   }
   
   .lnks {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+ 
   }
   
   .lnks a {
-  color: #fff;
+  color: #110303;
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
@@ -27,8 +46,19 @@
   }
   
   @media (max-width: 768px) {
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      
+      }
   .toggleButton {
   display: block;
+  
+  padding: auto;
+  
   }
   .lnks {
   display: none;
@@ -39,7 +69,7 @@
   width: 100%;
   height: auto;
   left: 0;
-  background-color: #333;
+  background-color: #fff;
   z-index: 1;
   }
   .lnks a {
@@ -49,6 +79,7 @@
   display: flex;
   }
   }
+
   
   
   

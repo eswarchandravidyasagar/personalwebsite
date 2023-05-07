@@ -10,29 +10,42 @@ import EmailIcon from "@mui/icons-material/Email"
 function Home() {
   return (
 
-    <div  class="container mx-auto">
+    <div   id='contact'>
   <div className='about'>
-    <h2 className='name'>Hello, I'm Eswar Attuluri.</h2>
-    
+ 
+
+<div id='herodata'>
+<div className="avatar">
+  <div className="w-24 rounded-full">
+    <img src="https://media.licdn.com/dms/image/C4E03AQHGL-SL3YEVVg/profile-displayphoto-shrink_400_400/0/1595353191935?e=1688601600&v=beta&t=T7uvCfVn2Kx_Zq1-HtlqWFjP5sjX7_710GQnGPZVvcI" />
+  </div>
+</div>
+    <h1 className='name'>Hello 👋, I'm Eswar Attuluri.</h1>
+    <h3 className='title'> Software Developer </h3>
+    <p className='description'>I am a software developer with a passion for building things. I am currently pursuing my Masters in Computer Science at the University of Southern California. I am interested in building scalable and reliable software systems. I am currently looking for full-time opportunities starting May 2022.</p>
+
+
+
+
+    </div>
     <div class="bg-base-200" className='prompt'>
-      <p class="base-content">I'm a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development using HTML, CSS, and JavaScript, and have experience working with frameworks like React, Bootstrap, and MaterialUI. </p>
-      <p>When I'm not coding, you can find me exploring new technologies and staying up-to-date with the latest industry trends. Connect with me on LinkedIn, check out my Github profile, or drop me an email if you're interested in working together.</p>
-      <div className='social-icons'>
-        <a href='https://www.linkedin.com/in/eswarattuluri/' ><LinkeinIcon /></a>
-        <a href='https://github.com/eswarchandravidyasagar'><GithubIcon /></a>
+        <div className='social-icons'>
+        <a  class='xl' href='https://www.linkedin.com/in/eswarattuluri/' ><LinkeinIcon /></a>
+        <a  href='https://github.com/eswarchandravidyasagar'><GithubIcon /></a>
         <a href={"/contact"} ><EmailIcon /></a>
       </div>
+      
     </div>
   </div>
+  
   
   <div class="container mx-auto base-200 " >
 
 
-    <h2>Skills</h2>
-    <p class="base-content">I have a strong foundation in front-end web development and am proficient in HTML, CSS, and JavaScript. I also have experience working with popular front-end frameworks like React, Bootstrap, and MaterialUI. </p>
-    <p>On the back-end, I'm well-versed in Node.js, Express, and MongoDB, allowing me to build full-stack web applications that are both scalable and robust.</p>
-    <p>Aside from my technical skills, I'm a proactive communicator and a collaborative team player. I enjoy working closely with clients and stakeholders to ensure that their needs are met and their expectations are exceeded.</p>
-  </div>
+    </div>
+    
+    
+
 </div>
 
 

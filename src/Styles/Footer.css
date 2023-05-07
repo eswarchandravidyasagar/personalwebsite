@@ -1,33 +1,17 @@
-.footer {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  padding: 30px;
-  background-color: #333;
-  color: #fff;
+.footer{
+  
+  
+  background: #0052D4; 
+background: -webkit-linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);  
+background: linear-gradient(to left, #6FB1FC, #4364F7, #0052D4);
+  
+}
+
+
+p{
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
-  margin-bottom: 0;
-  }
-  
-  .socialMedia {
   display: flex;
-  }
-  
-  .socialMedia a {
-  color: #fff;
-  margin-right: 20px;
-  }
-  
-  .socialMedia a:last-child {
-  margin-right: 0;
-  }
-  
-  p {
-  margin: 0;
-  }
-  
-  
-  
-  
-  
-  
+  justify-content: center;
+  color: white;
+}

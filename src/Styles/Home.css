@@ -1,125 +1,146 @@
-.home {
-    background: linear-gradient(to right, #00b4db, #0083b0);
+#herodata{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    padding: 50px;
-    scroll-behavior: smooth;
-    }
-    
-    .about {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    border-radius: 10px;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
     }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    40% { border-color: rgb(247, 225, 181); }
+
     
-    .name {
+  }
+
+.name{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 2%;
+ overflow: hidden;
+  white-space: nowrap;
+   border-right: .15em solid rgb(249, 225, 225);
+    animation:
+    typing 7.5s steps(22, end),
+    blink-caret .5s step-end infinite;
+
+
+    
+}
+
+.title{
     font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-weight: 500;
+    color: #000;
     text-align: center;
-    }
-    
-    .prompt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    }
-    
-    .prompt p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    }
-    
-    .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    }
-    
-    .social-icons a {
-    display: inline-block;
-    margin: 0 10px;
+    overflow: hidden;
+    white-space: nowrap;
+
+
+    margin-bottom: 2%;
+    animation: forwards fadeIn 2;
+}
+
+.description{
     font-size: 1.5rem;
-    color: #333;
-    }
-    
-    .skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-weight: 300;
+    color: #000;
     text-align: center;
-    }
-    
-    .skills h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    }
-    
-    .skills p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    }
-    
-
-
-    @media only screen and (max-width: 768px) {
-.name {
-font-size: 1.5rem;
+    margin-bottom: 2%;
+    animation: forwards fadeIn 3s;
 }
 
-.prompt p {
-font-size: 1rem;
+
+.prompt{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20%;
+    border-radius: 10px;
+    background-color:#fff;
+
+    
 }
 
 .social-icons a {
-font-size: 1rem;
-}
-
-.skills h2 {
-font-size: 1.5rem;
-}
-
-.skills p {
-font-size: 1rem;
-}
-}
-
-@media only screen and (max-width: 480px) {
-.name {
-font-size: 1.2rem;
-}
-
-.prompt p {
-font-size: 0.8rem;
-}
-
-.social-icons a {
-font-size: 0.8rem;
-}
-
-.skills h2 {
-font-size: 1.2rem;
-}
-
-.skills p {
-font-size: 0.8rem;
-}
-}
-
-
-
-
-
-
+    
+   
+    transition: transform 0.5s ease;
+    display: inline-block;
+    color: #000;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 1rem;
+    color: #215cf1;
     
     
     
+}
+
+
+   
+@media (max-width: 768px) {
+
+    .avatar{
+       height: 50px;
+         width: 50px;
+
+    }
+
+    .name{
+        font-size: 1.3rem;
+    }
+
+    .title{
+        font-size: 1.5rem;
+    }
+
+    .description{
+        font-size: 1rem;
+    }
+
     
+
+    .prompt{
+        margin-top: 20%;
+        margin-bottom: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 5%;
+       
+       
+        
+    }
+   
+}
