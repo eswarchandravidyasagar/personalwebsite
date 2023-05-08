@@ -3,6 +3,7 @@ import "../Styles/Home.css";
 import LinkeinIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email"
+import { ReactComponent as Skills } from '../Assets/skills.svg';
 
 
 
@@ -22,10 +23,12 @@ function Home() {
 </div>
     <h1 className='name'>Hello 👋, I'm Eswar Attuluri.</h1>
     <h3 className='title'> Software Developer </h3>
-    <p className='description'>I am a software developer with a passion for building things. I am currently pursuing my Masters in Computer Science at the University of Southern California. I am interested in building scalable and reliable software systems. I am currently looking for full-time opportunities starting May 2022.</p>
+    <p className='description'>I am a software developer with a passion for building things.  I am interested in building scalable and reliable software systems. I am currently looking for full-time opportunities .</p>
 
-
-
+    </div>
+    <h1 id='sk' >Skills</h1> 
+    <div className='skills'>
+      < Skills />
 
     </div>
     <div class="bg-base-200" className='prompt'>
