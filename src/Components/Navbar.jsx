@@ -14,7 +14,7 @@ useEffect(()=>{setexpandNavbar(false)},[location])
 
 
   return (
-    <div   className='navbar'  id={expandNavbar ? "open" : "close"}>
+    <div   className='navbar '   id={expandNavbar ? "open" : "close"}>
     
     <div className='logo'>
         <img id='logo' src={logo} alt="logo" />

@@ -44,33 +44,39 @@
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
+
   }
   
   /* The typewriter cursor effect */
+
+  /* decrease the size of the cursor */
+
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    40% { border-color: rgb(247, 225, 181); }
+    40% { border-color: rgb(247, 225, 181); 
+    cursor: pointer;
+    
+    }
 
+   
     
   }
 
-.name{
-    font-size: 3rem;
-    font-weight: 700;
-    color: #000;
-    text-align: center;
-    margin-bottom: 2%;
- overflow: hidden;
+  .name {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2%;
+  overflow: hidden;
   white-space: nowrap;
-   border-right: .15em solid rgb(249, 225, 225);
-    animation:
-    typing 7.5s steps(22, end),
-    blink-caret .5s step-end infinite;
-
-
-    
+  border-right: .1em solid rgb(249, 225, 225);
+  animation: typing 5s steps(22, end), blink-caret .5s step-end alternate-reverse infinite;
+  border-color: #f00;
+  border-width: 0;
 }
-
+  
+ 
 .title{
     font-size: 2rem;
     font-weight: 500;
@@ -78,8 +84,6 @@
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
-
-
     margin-bottom: 2%;
     animation: forwards fadeIn 2;
 }
@@ -111,7 +115,7 @@
 }
 
 .social-icons a {
-    
+
    
     transition: transform 0.5s ease;
     display: inline-block;
@@ -126,6 +130,36 @@
     
     
 }
+
+@media screen and (max-width: 760px) {
+    .social-icons a {
+        font-size: 1.5rem;
+    }
+
+    .description{
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+
+   #img{
+    display: flex;
+   }
+
+    .title{
+        font-size: 1.5rem;
+        padding-top: 20px;
+
+    }
+    .name{
+        
+        padding-top: 50px;
+       
+        
+
+    }
+}
+
+    
 
 
    
