@@ -6,7 +6,29 @@ import fullstackapp from '../Assets/fullstackapp.jpg';
 import groceriestracker from '../Assets/groceriestracker.jpg';
 import trainingtribe from '../Assets/trainingtribe.jpg';
 import { Link } from "react-router-dom";
+import BMI_calculator from "../Assets/BMI_calculator.jpg";
+import url_shortner from "../Assets/url_shortner.jpg";
 export const projectList =[
+
+    {
+        name : "BMI calculator",
+        image : BMI_calculator,
+        Demo:"https://bmi-calculator-zeta-red.vercel.app/"
+    
+    },
+    
+    {
+        name : "URL shortner",
+        image : url_shortner,
+        Demo:"https://url-shortner-ruby.vercel.app/ "
+    
+    },
+
+    {
+        name : "Note Keeper",
+        image : Keeper,
+        Demo:"https://sxdnn4.csb.app/"
+    },
 
  {
      name :"Birthday callender",
@@ -26,11 +48,7 @@ export const projectList =[
     Demo:" https://eswarchandravidyasagar.github.io/Newscorekeeper/"
 },
 
-{
-    name : "Note Keeper",
-    image : Keeper,
-    Demo:"https://sxdnn4.csb.app/"
-},
+
 
 {
     name : "Fullstack notes app",
@@ -46,11 +64,10 @@ export const projectList =[
 
 },
 
-{
-name : "Client Project Trinaing Tribe",
-image : trainingtribe,
-Demo:"https://eswarchandravidyasagar.github.io/Trainingtribe/"
-}
+
+
+
+
 
 
 

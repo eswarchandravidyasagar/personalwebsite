@@ -6,7 +6,6 @@ import EmailIcon from "@mui/icons-material/Email"
 
 
 import { ReactComponent as Skills } from '../Assets/skills.svg';
-import { SickRounded } from '@mui/icons-material';
 
 
 
