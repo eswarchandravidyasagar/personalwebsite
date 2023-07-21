@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.a0cdee74.css",
-    "main.js": "/personalwebsite/static/js/main.0128e07f.js",
-    "static/media/trainingtribe.jpg": "/personalwebsite/static/media/trainingtribe.a1a195c0eeed3ecb84df.jpg",
-    "static/media/scorekeeper.jpg": "/personalwebsite/static/media/scorekeeper.4ed3e2bacd8b5ae9ed67.jpg",
-    "static/media/birthday.jpg": "/personalwebsite/static/media/birthday.8adc45a326a67c845d39.jpg",
-    "static/media/dice.jpg": "/personalwebsite/static/media/dice.878475d524832d7b53c1.jpg",
-    "static/media/keeper.jpg": "/personalwebsite/static/media/keeper.56b8c5843446a273c496.jpg",
-    "static/media/groceriestracker.jpg": "/personalwebsite/static/media/groceriestracker.4f4178cb700486c3a525.jpg",
-    "static/media/fullstackapp.jpg": "/personalwebsite/static/media/fullstackapp.d7ff1b0109674185cbc1.jpg",
-    "static/media/skills.svg": "/personalwebsite/static/media/skills.cc476b6addc72a97134eb60c002ad754.svg",
-    "index.html": "/personalwebsite/index.html",
-    "main.a0cdee74.css.map": "/personalwebsite/static/css/main.a0cdee74.css.map",
-    "main.0128e07f.js.map": "/personalwebsite/static/js/main.0128e07f.js.map"
+    "main.css": "/static/css/main.a0cdee74.css",
+    "main.js": "/static/js/main.c134a33d.js",
+    "static/media/trainingtribe.jpg": "/static/media/trainingtribe.a1a195c0eeed3ecb84df.jpg",
+    "static/media/scorekeeper.jpg": "/static/media/scorekeeper.4ed3e2bacd8b5ae9ed67.jpg",
+    "static/media/birthday.jpg": "/static/media/birthday.8adc45a326a67c845d39.jpg",
+    "static/media/dice.jpg": "/static/media/dice.878475d524832d7b53c1.jpg",
+    "static/media/keeper.jpg": "/static/media/keeper.56b8c5843446a273c496.jpg",
+    "static/media/BMI_calculator.jpg": "/static/media/BMI_calculator.b85470b563f2d8378b78.jpg",
+    "static/media/groceriestracker.jpg": "/static/media/groceriestracker.4f4178cb700486c3a525.jpg",
+    "static/media/url_shortner.jpg": "/static/media/url_shortner.71e3d54da259a2a00585.jpg",
+    "static/media/fullstackapp.jpg": "/static/media/fullstackapp.d7ff1b0109674185cbc1.jpg",
+    "static/media/skills.svg": "/static/media/skills.cc476b6addc72a97134eb60c002ad754.svg",
+    "index.html": "/index.html",
+    "main.a0cdee74.css.map": "/static/css/main.a0cdee74.css.map",
+    "main.c134a33d.js.map": "/static/js/main.c134a33d.js.map"
   },
   "entrypoints": [
     "static/css/main.a0cdee74.css",
-    "static/js/main.0128e07f.js"
+    "static/js/main.c134a33d.js"
   ]
 }
